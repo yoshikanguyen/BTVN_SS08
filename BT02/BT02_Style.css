@@ -1,0 +1,37 @@
+/* SS08_BT02_Nguyễn Bình Lam Nghi */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50px;
+  gap: 5px;
+}
+
+.column {
+  background-color: rgb(245, 111, 99);
+  color: white;
+  border: 1.5px solid rgb(201, 201, 201);
+  width: calc(25% - 5px);
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+  .column {
+    width: calc(50% - 5px);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .column {
+    width: calc(100% - 5px);
+  }
+}
+
+
+
